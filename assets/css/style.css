@@ -1,0 +1,72 @@
+body{
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/c8/7b/a3/c87ba3ef30b5072fd4bc0657c6a066d8.jpg);
+}
+
+.container {
+	margin: 0;
+	margin-left: 5px;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	margin-top: 5px;
+}
+
+h1 {
+	background: seagreen;
+	width: 300px;
+	height: 100px;
+	padding-top: 30px;
+	color: white;
+}
+
+.col-md-4 {
+background-color: white;
+color: green;
+}
+
+.col-md-3 {
+	background-color: blue;
+	height: 55px;
+	margin-top: 5px;
+}
+
+#result {
+	background-color: aqua;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#totalScore {
+background-color: springgreen;
+height: 60px;
+margin-bottom: 5px;
+width: 300px;
+font-size: 24px;
+text-align: center;
+color: black;
+}
+
+.clickableImage{
+	cursor: pointer;
+	cursor: hand;
+}
+
+p {
+	font-size: 18px;
+
+}
+
+#numberToGuess {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	height: 70px;
+}
+
+h4 {
+	background-color: black;
+	color: yellow;
+	width: 150px;
+}

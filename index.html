@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src=assets/javascript/game.js></script>
+    <title>Crystal Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="title">
+            <div class="col-sm-12">
+                <h1>Crystals Collector!</h1>
+            </div>
+        </div>
+        <div class="row" id="paragraphs">
+            <div class="col-md-4">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="numberToGuess" class="col-md-3">
+            </div>
+            <div id="result" class="col-md-1">
+                <strong><p id="wins">Wins:</p></strong>
+                <strong><p id="loss">Losses:</p></strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img id="purpleCrystal" class="clickableImage" src="assets/images/purpleCrystal.png">
+            </div>
+            <div class="col-md-2">
+                <img id="pinkCrystal" class="clickableImage" src="assets/images/pinkCrystal.png">
+            </div>
+            <div class="col-md-2">
+                <img id="blueCrystal" class="clickableImage" src="assets/images/blueCrystal.png">
+            </div>
+            <div class="col-md-2">
+                <img id="greenCrystal" class="clickableImage" src="assets/images/greenCrystal.png">
+            </div>
+        </div>
+        <div class="row">
+            <h4>Your total score is:</h4>
+        </div>
+        <div class="row">
+            <div>
+                <p id="totalScore"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
